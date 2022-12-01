@@ -1,3 +1,4 @@
+# PROMPT #
 # Given data formatted in groups of 1000 seperated by newlines, find the group with the highest sum
 
 # Read in data
@@ -14,4 +15,9 @@ for group in data:
     if group_sum > highest_sum:
         highest_sum = group_sum
 
-print(highest_sum)  
+print(highest_sum)
+
+# PROMPT #
+# Do it again but in a single line of code
+
+print(max(sum(int(number) for number in group.split()) for group in data.split("\n\n")))
