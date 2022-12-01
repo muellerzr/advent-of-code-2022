@@ -1,3 +1,6 @@
+# Note: PROMPT just means the next line was a prompt, when using copilot this was not given. It 
+# is strictly for clarity.
+
 # PROMPT #
 # Given data formatted in groups of 1000 seperated by newlines, find the group with the highest sum
 
